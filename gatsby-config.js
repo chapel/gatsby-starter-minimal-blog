@@ -1,6 +1,6 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
 module.exports = {
   siteMetadata: {
@@ -28,7 +28,7 @@ module.exports = {
           },
           {
             name: `Twitter`,
-            url: `https://twitter.com/jacob.chapel`,
+            url: `https://twitter.com/jacobchapel`,
           },
         ],
       },
@@ -67,4 +67,4 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
   ],
-}
+};
