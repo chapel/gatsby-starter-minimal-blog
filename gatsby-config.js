@@ -4,7 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `lepahc`,
     siteTitleAlt: `Jacob Chapel's Musings`,
+    siteHeadline: `Jacob Chapel's Musings`,
+    siteUrl: `https://lepahc.com`,
+    siteDescription: ``,
+    siteLanguage: `en`,
+    siteImage: ``,
+    author: `@jacobchapel`,
   },
   plugins: [
     {
